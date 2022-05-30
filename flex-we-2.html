@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FLex-2</title>
+  <style>
+      #header{
+          width: 100%;
+          
+          height: 70px;
+          display: flex;
+          justify-content: space-evenly;
+      }
+      #header>div:first-child{
+          width: 10%;
+        height: 100%;
+        
+      }
+      #header>div:last-child{
+          width: 65%;
+          background-color: white;
+          display: flex;
+          justify-content: space-around;
+      }
+      select{
+          border: 0;
+          font-size: 17px ;
+      }
+      #header>div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 17px bold;
+          
+      }p+div{
+         padding: 0px 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(218, 248, 248);
+          height: 80%;
+          color: rgb(113, 113, 251);
+          border-radius: 10px;
+      }p+div>img{
+          width: 20px;
+          height: 20px;
+          margin-left: 10px;
+      }
+      button{
+          height: 65%;
+          width: 80px;
+          border: 1px solid red;
+          color: red;
+          border-radius: 7px;
+          background-color: white;
+          font-size: 20px;
+      }
+  </style>
+</head>
+<body>
+    <div id="header">
+        <div>
+            <img src="https://masaischool.com/img/navbar/logo.svg" alt="MASAI">
+        </div>
+        <div>
+            <select name="Course" id="course">
+                <option value="a">Course</option>
+                <option value="b">Full-Time</option>
+                <option value="c">Part-Time</option>
+            </select>
+            <p>FEES & ISA</p>
+            <p>ABOUT US</p>
+            <p>HIRE FOR US</p>
+            <p>FAQ</p>
+            <p>EVENTS</p>
+            <div>
+                <p>REFER & EARN</p>
+                <img src="https://masaischool.com/img/referral/hand.png" alt="">
+            </div>
+            <button>Login</button>
+        </div>
+        
+        
+        
+        
+    </div>
+</body>
+</html>
+  
+ 
